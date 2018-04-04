@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mivanov/IdeaProjects/tests/src/test/scala/CatSpec.scala:6:10: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  before {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mivanov/IdeaProjects/tests/src/test/scala/CatSpec.scala:11:11: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(cat.name == "Cat name")[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mivanov/IdeaProjects/tests/src/test/scala/CatSpec.scala:10:24: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Correct name") {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mivanov/IdeaProjects/tests/src/test/scala/DogSpec.scala:6:10: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  before {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mivanov/IdeaProjects/tests/src/test/scala/DogSpec.scala:11:11: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(dog.name == "Test")[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mivanov/IdeaProjects/tests/src/test/scala/DogSpec.scala:10:24: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Correct name") {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
