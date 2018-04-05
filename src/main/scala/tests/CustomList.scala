@@ -1,8 +1,8 @@
 package tests
 
-class Fold {
-  def length(dogs: List[Int]): Int = {
-    dogs.foldLeft(0)((n: Int, _) => {n + 1})
+class CustomList {
+  def length(list: List[Int]): Int = {
+    list.foldLeft(0)((n: Int, _) => {n + 1})
   }
 
   def sum(data: List[Int]): Int = {
@@ -14,6 +14,6 @@ class Fold {
   }
 
   def takeWhile(predicate: (Int) => Boolean, data: List[Int]): List[Int] = {
-    data.foldLeft(List[Int]())((res: List[Int], item: Int) => { if(predicate(item)) res ::: List[Int](item) else res})
+    data.foldLeft(List[Int]())((res: List[Int], item: Int) => { if(predicate(item)) res :+ item else res})
   }
 }
